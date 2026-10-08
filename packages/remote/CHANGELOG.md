@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Use current Pi host imports and wildcard peers, with a Pi 1.1.0 development baseline.
+
 ### Added
 - Initial release: remote terminal access for pi via WebSocket and browser
 - PTY management with `node-pty`
