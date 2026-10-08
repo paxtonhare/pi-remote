@@ -8,13 +8,13 @@
  * shows a persistent widget with the remote URL above the editor.
  */
 
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { execSync, spawnSync } from "node:child_process";
 import { existsSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { Box, Text } from "@mariozechner/pi-tui";
+import { Box, Text } from "@earendil-works/pi-tui";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
